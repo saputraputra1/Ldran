@@ -1,0 +1,8 @@
+{
+  "users": [
+    { "username": "kamu", "password": "12345" },
+    { "username": "pacarmu", "password": "67890" }
+  ],
+  "messages": [],
+  "quiz": []
+}
