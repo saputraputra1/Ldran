@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💖 Love LDR Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>💌 Love Game LDR</h1>
+
+<!-- LOGIN -->
+<div id="loginCard" class="card">
+  <h3>Login</h3>
+  <input id="username" placeholder="Username"><br>
+  <input id="password" type="password" placeholder="Password"><br>
+  <button onclick="login()">Masuk</button>
+</div>
+
+<!-- MAIN MENU -->
+<div id="mainCard" class="card hidden">
+  <h3>Halo, <span id="user"></span>! 💖</h3>
+  <button onclick="loadMessages()">📩 Lihat Pesan</button>
+  <button onclick="sendMessage()">💌 Kirim Pesan</button>
+  <button onclick="answerQuiz()">🎲 Quiz Pasangan</button>
+  <button onclick="viewQuiz()">📜 Lihat Jawaban Quiz</button>
+  <div id="output"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
